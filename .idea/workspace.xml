@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b3f2894-3d6b-4c33-bb56-498ade92f1ad" name="Default Changelist" comment="" />
+    <list default="true" id="3b3f2894-3d6b-4c33-bb56-498ade92f1ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MatStat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MatStat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab_4.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Lab_3">
+  <component name="RunManager" selected="Python.Lab_4">
     <configuration name="Lab_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MatStat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +93,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab_4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MatStat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\karas\PycharmProjects\MatStat\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MatStat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +139,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.Lab_3" />
+      <item itemvalue="Python.Lab_4" />
       <item itemvalue="Python.Lab_1" />
     </list>
   </component>
@@ -128,6 +156,8 @@
       <workItem from="1583309134489" duration="4167000" />
       <workItem from="1583313822496" duration="21752000" />
       <workItem from="1584908536099" duration="10776000" />
+      <workItem from="1585553043844" duration="807000" />
+      <workItem from="1585617422314" duration="4515000" />
     </task>
     <servers />
   </component>
@@ -139,7 +169,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -147,7 +179,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MatStat$MatStat.coverage" NAME="Lab_1 Coverage Results" MODIFIED="1583313794046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MathStats$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1585074356948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MathStats$Lab_3.coverage" NAME="Lab_3 Coverage Results" MODIFIED="1585713424845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MatStat$Lab_1.coverage" NAME="Lab_1 Coverage Results" MODIFIED="1583858734572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
