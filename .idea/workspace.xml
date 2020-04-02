@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b3f2894-3d6b-4c33-bb56-498ade92f1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_4.py" afterDir="false" />
-    </list>
+    <list default="true" id="3b3f2894-3d6b-4c33-bb56-498ade92f1ad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,7 @@
       <workItem from="1583313822496" duration="21752000" />
       <workItem from="1584908536099" duration="10776000" />
       <workItem from="1585553043844" duration="807000" />
-      <workItem from="1585617422314" duration="14550000" />
+      <workItem from="1585617422314" duration="15249000" />
     </task>
     <task id="LOCAL-00001" summary="lab4 first iter">
       <created>1585713670439</created>
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585713670439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab4">
+      <created>1585779527000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585779527000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab4 first iter" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab4 first iter" />
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MathStats$Lab_4.coverage" NAME="Lab_4 Coverage Results" MODIFIED="1585779139561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
