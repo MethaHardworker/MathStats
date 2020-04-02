@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PycharmProjects/studying" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,7 +152,7 @@
       <workItem from="1583313822496" duration="21752000" />
       <workItem from="1584908536099" duration="10776000" />
       <workItem from="1585553043844" duration="807000" />
-      <workItem from="1585617422314" duration="15249000" />
+      <workItem from="1585617422314" duration="15722000" />
     </task>
     <task id="LOCAL-00001" summary="lab4 first iter">
       <created>1585713670439</created>
