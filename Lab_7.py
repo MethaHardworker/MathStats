@@ -1,5 +1,5 @@
 import scipy.stats as sc
-
+import matplotlib.pyplot as plt
 
 def binCount(arr, bounds):
     res = [0] * (len(bounds) + 1)
@@ -41,9 +41,9 @@ def pCountsU(bounds):
 
 
 n = 100
-n1 = 25
+n1 = 10
 a_s = [-1.5, -0.5, 0, 0.5, 1.5]
-a_s1 = [-2, -1, 0, 1, 2]
+a_s1 = [-2, -1.5, -1, -0.5, 0, 0.5, 1, 1.5, 2]
 data = sc.norm.rvs(size=n, scale=1, loc=0)
 data1 = sc.uniform.rvs(size=n1, scale=4, loc=-2)
 print(sc.norm.fit(data))
@@ -69,6 +69,7 @@ for i in range(len(p_s)):
     print(n_s[i] - n * p_s[i], end=' & ')
     print(((n_s[i] - n * p_s[i]) ** 2) / (n * p_s[i]), end=' \\\\ \\hline\n')
 
+sum_val = 0
 for i in range(len(p_s1)):
     print(i + 1, end=' & ')
     print('$[', a_s1[i], a_s1[i + 1], ']$', end=' & ')
@@ -77,4 +78,12 @@ for i in range(len(p_s1)):
     print(n1 * p_s1[i], end=' & ')
     print(n_s1[i] - n1 * p_s1[i], end=' & ')
     print(((n_s1[i] - n1 * p_s1[i]) ** 2) / (n1 * p_s1[i]), end=' \\\\ \\hline\n')
+    sum_val += ((n_s1[i] - n1 * p_s1[i]) ** 2) / (n1 * p_s1[i])
 
+print("Sum:", sum_val)
+
+r1 = sc.norm.rvs(size=10)
+r2 = sc.uniform.rvs(size=10, scale=4, loc=-2)
+plt.hist(r1, 8, [-2, 2], alpha=0.5, color='blue')
+plt.hist(r2, 8, [-2, 2], alpha=0.5, color='yellow')
+plt.show()
