@@ -1,1 +1,1 @@
-# MathStats
+# Mathematical-statistics
